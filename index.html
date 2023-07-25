@@ -213,6 +213,8 @@
         </div>
       </div>
     </div>
+
+    <!-- fruit section with modal -->
         
     <div class="grid ml-3 md:ml-0 gap-4 md:gap-2 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-8 md:mt-12">
       <!-- fruit 1 -->
@@ -231,11 +233,112 @@
           </div>
           <!-- <p class="text-[#F85559] text-xl font-bold">Details</p> -->
           <!-- Open the modal using ID.showModal() method -->
-<button class="btn bg-white border-0" onclick="my_modal_1.showModal()"><span class="text-[#F85559] text-md font-bold">Details</span></button>
-<dialog id="my_modal_1" class="modal">
+            <div>
+              <button class="btn bg-white border-0" onclick="my_modal_1.showModal()"><span class="text-[#F85559] text-md font-bold block">Details</span></button>
+      <dialog id="my_modal_1" class="modal">
+        <form method="dialog" class="modal-box">
+          <div class="flex justify-center">
+            <img src="./images/fruit6.png" alt="">
+          </div>
+          <p class="py-4 text-base font-normal">Professional employees are there for you to pick the most<br>amazing and fresh fruits.</p>
+
+          <div class="rating">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+          </div>
+          <div class="">
+            <div class="modal-action flex items-center justify-center gap-3">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn"><span class="text-[#F85559] font-bold mb-2">Close</span></button>
+
+              <button class="btn bg-primary-bg"><span class="text-white font-bold">Buy Now</span></button>
+            </div>
+            
+          </div>
+          
+        </form>
+      </dialog>
+            </div>
+       </div>
+
+        <!-- fruit 2 -->
+        <div class="text-center space-y-4 border-0 md:border-2  border-gray-100 rounded-sm px-3 md:px-8 py-3 md:py-8">
+          <div class="flex justify-center">
+            <img src="./images/fruit7.png" alt="">
+          </div>
+          <p class="text-2xl font-bold ">12.90$ - 18.85$</p>
+          <p class="text-base font-normal">Apple</p>
+          <div class="rating">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+          </div>
+          
+        <!-- <p class="text-[#F85559] text-xl font-bold">Details</p> -->
+          <!-- Open the modal using ID.showModal() method -->
+        <div>
+          
+          <button class="btn bg-white border-0" onclick="my_modal_2.showModal()"><span class="text-[#F85559] text-md font-bold">Details</span></button>
+          <dialog id="my_modal_2" class="modal">
+            <form method="dialog" class="modal-box">
+              <div class="flex justify-center">
+                <img src="./images/fruit7.png" alt="">
+              </div>
+              <p class="py-4 text-base font-normal">Professional employees are there for you to pick the most<br>amazing and fresh fruits.</p>
+          
+              <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+              </div>
+              <div class="">
+                <div class="modal-action flex items-center justify-center gap-3">
+                  <!-- if there is a button in form, it will close the modal -->
+                  <button class="btn"><span class="text-[#F85559] font-bold mb-2">Close</span></button>
+          
+                  <button class="btn bg-primary-bg"><span class="text-white font-bold">Buy Now</span></button>
+                </div>
+                
+              </div>
+              
+            </form>
+          </dialog>
+ 
+
+        </div>
+       
+        </div>
+
+        <!-- fruit 3 -->
+        <div class="text-center space-y-4 border-0 md:border-2  border-gray-100 rounded-sm px-3 md:px-8 py-3 md:py-8">
+          <div class="flex justify-center">
+            <img src="./images/fruit8.png" alt="">
+          </div>
+          <p class="text-2xl font-bold ">12.90$ - 18.85$</p>
+          <p class="text-base font-normal">Apple</p>
+          <div class="rating">
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+          </div>
+          
+       <!-- <p class="text-[#F85559] text-xl font-bold">Details</p> -->
+          <!-- Open the modal using ID.showModal() method -->
+       <div>
+        <button class="btn bg-white border-0" onclick="my_modal_3.showModal()"><span class="text-[#F85559] text-md font-bold">Details</span></button>
+<dialog id="my_modal_3" class="modal">
   <form method="dialog" class="modal-box">
     <div class="flex justify-center">
-      <img src="./images/fruit6.png" alt="">
+      <img src="./images/fruit8.png" alt="">
     </div>
     <p class="py-4 text-base font-normal">Professional employees are there for you to pick the most<br>amazing and fresh fruits.</p>
 
@@ -259,42 +362,10 @@
   </form>
 </dialog>
        </div>
-
-        <!-- fruit 1 -->
-        <div class="text-center space-y-4 border-0 md:border-2  border-gray-100 rounded-sm px-3 md:px-8 py-3 md:py-8">
-          <div class="flex justify-center">
-            <img src="./images/fruit7.png" alt="">
-          </div>
-          <p class="text-2xl font-bold ">12.90$ - 18.85$</p>
-          <p class="text-base font-normal">Apple</p>
-          <div class="rating">
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
-          </div>
-          <p class="text-[#F85559] font-normal text-bold">Details</p>
-       </div>
-
-        <!-- fruit 1 -->
-        <div class="text-center space-y-4 border-0 md:border-2  border-gray-100 rounded-sm px-3 md:px-8 py-3 md:py-8">
-          <div class="flex justify-center">
-            <img src="./images/fruit8.png" alt="">
-          </div>
-          <p class="text-2xl font-bold ">12.90$ - 18.85$</p>
-          <p class="text-base font-normal">Apple</p>
-          <div class="rating">
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
-            <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
-          </div>
-          <p class="text-[#F85559] font-normal text-bold">Details</p>
-       </div>
+       
+        </div>
    
-        <!-- fruit 1 -->
+        <!-- fruit 4 -->
         <div class="text-center space-y-4 border-0 md:border-2  border-gray-100 rounded-sm px-3 md:px-8 py-3 md:py-8">
           <div class="flex justify-center">
             <img src="./images/fruit9.png" alt="">
@@ -308,8 +379,42 @@
             <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
             <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
           </div>
-          <p class="text-[#F85559] font-normal text-bold">Details</p>
+         
+       
+        <!-- <p class="text-[#F85559] text-xl font-bold">Details</p> -->
+          <!-- Open the modal using ID.showModal() method -->
+       <div>
+        <button class="btn bg-white border-0" onclick="my_modal_4.showModal()"><span class="text-[#F85559] text-md font-bold">Details</span></button>
+        <dialog id="my_modal_4" class="modal">
+          <form method="dialog" class="modal-box">
+            <div class="flex justify-center">
+              <img src="./images/fruit9.png" alt="">
+            </div>
+            <p class="py-4 text-base font-normal">Professional employees are there for you to pick the most<br>amazing and fresh fruits.</p>
+        
+            <div class="rating">
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+              <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+            </div>
+            <div class="">
+              <div class="modal-action flex items-center justify-center gap-3">
+                <!-- if there is a button in form, it will close the modal -->
+                <button class="btn"><span class="text-[#F85559] font-bold mb-2">Close</span></button>
+        
+                <button class="btn bg-primary-bg"><span class="text-white font-bold">Buy Now</span></button>
+              </div>
+              
+            </div>
+            
+          </form>
+        </dialog>
+
        </div>
+       
+        </div>
         
 
 
